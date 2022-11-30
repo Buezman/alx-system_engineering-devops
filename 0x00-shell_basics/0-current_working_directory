@@ -1,2 +1,2 @@
 #!/bin/bash
-${realpath "${BASH_SOURCE:-0 $0}")
+$ realpath 0-current_working_directory
