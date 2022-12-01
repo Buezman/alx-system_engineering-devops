@@ -1,2 +1,2 @@
 #!/bin/bash
-magic - file 0 [SCHOOL]*
+0 string SCHOOL School data !:mime School
