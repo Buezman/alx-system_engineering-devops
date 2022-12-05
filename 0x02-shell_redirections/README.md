@@ -21,4 +21,8 @@
 6. Display the first 10 lines of /etc/passwd file
 ```
 	head -n 10 /etc/passwd
+```
+7. Displays the third line of the file iacta
+```
+	head -3 iacta | tail +3
 ``` 
