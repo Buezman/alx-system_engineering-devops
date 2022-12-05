@@ -16,9 +16,9 @@
 ```
 5. Display the last 10 lines of /etc/passwd file
 ```
-	tail -n 10 /etc/passwm
+	tail -n 10 /etc/passwd
 ```
-6. Display the first 10 lines of /etc/passwd
+6. Display the first 10 lines of /etc/passwd file
 ```
 	head -n 10 /etc/passwd
-```
+``` 
