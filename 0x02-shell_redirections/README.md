@@ -2,3 +2,7 @@
 ```
 	echo 'Hello, World'
 ```
+2. Prints confused smiley "(Ôo)' to output
+```
+	echo '\"(Ôo)''
+```
