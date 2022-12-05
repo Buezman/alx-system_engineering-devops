@@ -10,3 +10,7 @@
 ```
 	cat /etc/passwd
 ```
+4. Display the contents of /etc/passwd and /etc/hosts files
+```
+	cat /etc/passwd /etc/hosts
+```
