@@ -50,3 +50,7 @@
 ```
 	ls -t1 | head -n 10
 ```
+14 . Create a script that takes a list of words as input and prints only words that appear exactly once
+```
+	sort | uniq -u
+```
