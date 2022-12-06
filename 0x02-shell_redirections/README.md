@@ -82,3 +82,7 @@
 ```
 	tr -d "cC"
 ```
+22. Write a script that reverses its input
+```
+	rev
+```
