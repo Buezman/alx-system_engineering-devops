@@ -86,3 +86,7 @@
 ```
 	rev
 ```
+23. Write a script that displays all users and their home directories, sorted by users
+```
+	getent passwd | cut -d: -f 1,6 | sort
+```
