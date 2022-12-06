@@ -50,7 +50,15 @@
 ```
 	ls -t1 | head -n 10
 ```
-14 . Create a script that takes a list of words as input and prints only words that appear exactly once
+14. Create a script that takes a list of words as input and prints only words that appear exactly once
 ```
 	sort | uniq -u
 ```
+15. Display lines containing the pattern “root” from the file /etc/passwd
+```
+	 cat /etc/passws | grep 'root'
+```
+16. Display the number of lines that contain the pattern “bin” in the file /etc/passwd
+```
+	
+``` 
