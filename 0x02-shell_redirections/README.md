@@ -66,3 +66,7 @@
 ```
 	grep -i 'root' -A 3 /etc/passwd
 ```		
+18. Display all the lines in the file /etc/passwd that do not contain the pattern “bin”.
+```
+	grep -i '^bin' /etc/passwd
+```
