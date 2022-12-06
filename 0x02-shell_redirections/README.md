@@ -70,3 +70,11 @@
 ```
 	grep -i '^bin' /etc/passwd
 ```
+19. Display all lines of the file /etc/ssh/sshd_config starting with a letter
+```
+	grep -i '^[A-z]' /etc/ssh/sshd_config
+```
+20. Replace all characters A and c from input to Z and e respectively
+```
+	tr 'A' 'Z' | tr 'c' 'e'
+```
