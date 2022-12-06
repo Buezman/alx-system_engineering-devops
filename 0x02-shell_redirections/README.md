@@ -46,3 +46,7 @@
 ```
 	find . -type d -not -name '.' | wc -l
 ```
+13. Create a script that displays the 10 newest files in the current directory
+```
+	ls -lt | head
+```
