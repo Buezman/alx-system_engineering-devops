@@ -76,5 +76,9 @@
 ```
 20. Replace all characters A and c from input to Z and e respectively
 ```
-	tr 'A' 'Z' | tr 'c' 'e'
+	tr "A" "Z" | tr "c" "e"
+```
+21. Create a script that removes all letters c and C from input
+```
+	tr -d "cC"
 ```
