@@ -19,3 +19,11 @@
 ```
 	printenv
 ```
+5. 5-local_variables - Create a script that lists all local variables and environment variables, and functions
+```
+	set
+```
+6. 6-create_local_variable (name: BEST, value: School)
+```
+	BEST=School
+```
