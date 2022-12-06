@@ -23,11 +23,15 @@
 ```
 	set
 ```
-6. 6-create_local_variable (name: BEST, value: School)
+6. 6-create_local_variable -  Create a script that creates a new global variable (name: BEST, value: School)
 ```
 	BEST=School
 ```
-7. 7-create_global_variable (name: BEST, value: School)
+7. 7-create_global_variable - Create a script that creates a new global variable (name: BEST, value: School)
 ```
 	export BEST=School
+```
+8. 8-true_knowledge - Write a script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line
+```
+	echo $((128 + $TRUEKNOWLEDGE))
 ```
