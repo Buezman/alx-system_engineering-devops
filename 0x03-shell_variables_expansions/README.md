@@ -11,3 +11,11 @@
 ```
 	export PATH=$PATH:/action	
 ```
+3. Create a script that counts the number of directories in the PATH.
+```
+	echo $((`echo $PATH | grep -o ":/" | wc -l`+ 1))
+```
+4. Create a script that lists environment variables.
+```
+	printenv
+```
