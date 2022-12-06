@@ -27,3 +27,7 @@
 ```
 	BEST=School
 ```
+7. 7-create_global_variable (name: BEST, value: School)
+```
+	export BEST=School
+```
