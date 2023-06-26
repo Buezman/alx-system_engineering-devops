@@ -1,0 +1,3 @@
+#!usr/bin/env bash
+# connects to my ubuntu intranet server
+ssh -i ~/.ssh/holberton ubuntu@18.209.152.115
