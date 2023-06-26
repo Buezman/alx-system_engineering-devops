@@ -1,0 +1,9 @@
+# An ssh configuration file to connect to a server without a password
+
+Host *
+PasswordAunthentication no
+IdentityFile ~/.ssh/school
+SendEnv LANG LC_*
+HashKnownHosts yes
+GSSAPIAuthentication yes
+GSSAPIDelegateCredentials no
